@@ -9,7 +9,3 @@
 ## Content
 
 - [Level 1](https://github.com/sangmin-iam/Programmers/tree/master/src/level1)
-
-# Programmers
-
-> 프로그래머스 문제 풀이 저장소입니다.
