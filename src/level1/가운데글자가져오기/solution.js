@@ -1,8 +1,6 @@
-function solution(seoul) {
-  for (let i = 0; i < seoul.length; i++) {
-    if ("Kim" === seoul[i]) {
-      const answer = "김서방은 " + i + "에 있다";
-      return answer;
-    }
-  }
+function solution(s) {
+  var mid = Math.floor(s.length / 2);
+  var answer =
+    Math.floor(s.length % 2) === 0 ? s.substr(mid - 1, 2) : s.substr(mid, 1);
+  return answer;
 }
